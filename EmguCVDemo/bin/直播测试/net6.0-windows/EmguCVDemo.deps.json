@@ -1,0 +1,95 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "EmguCVDemo/1.0.0": {
+        "dependencies": {
+          "Emgu.CV.Bitmap": "4.5.5.4823",
+          "Emgu.CV.Models": "4.5.5.4823",
+          "Emgu.CV.Platform.NetCore": "4.5.5.4823",
+          "Emgu.CV.Platform.NetFramework": "4.5.5.4823",
+          "Emgu.CV.Platform.NetStandard": "4.5.5.4823"
+        },
+        "runtime": {
+          "EmguCVDemo.dll": {}
+        }
+      },
+      "Emgu.CV.Bitmap/4.5.5.4823": {
+        "runtime": {
+          "Emgu.CV.Bitmap.dll": {
+            "assemblyVersion": "4.5.5.4823",
+            "fileVersion": "4.5.5.4823"
+          }
+        }
+      },
+      "Emgu.CV.Models/4.5.5.4823": {
+        "runtime": {
+          "Emgu.CV.Models.dll": {
+            "assemblyVersion": "4.5.5.4823",
+            "fileVersion": "4.5.5.4823"
+          }
+        }
+      },
+      "Emgu.CV.Platform.NetCore/4.5.5.4823": {
+        "runtime": {
+          "Emgu.CV.Platform.NetCore.dll": {
+            "assemblyVersion": "4.5.5.4823",
+            "fileVersion": "4.5.5.4823"
+          }
+        }
+      },
+      "Emgu.CV.Platform.NetFramework/4.5.5.4823": {
+        "runtime": {
+          "Emgu.CV.Platform.NetFramework.dll": {
+            "assemblyVersion": "4.5.5.4823",
+            "fileVersion": "4.5.5.4823"
+          }
+        }
+      },
+      "Emgu.CV.Platform.NetStandard/4.5.5.4823": {
+        "runtime": {
+          "Emgu.CV.Platform.NetStandard.dll": {
+            "assemblyVersion": "4.5.5.4823",
+            "fileVersion": "4.5.5.4823"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EmguCVDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Emgu.CV.Bitmap/4.5.5.4823": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Emgu.CV.Models/4.5.5.4823": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Emgu.CV.Platform.NetCore/4.5.5.4823": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Emgu.CV.Platform.NetFramework/4.5.5.4823": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Emgu.CV.Platform.NetStandard/4.5.5.4823": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Emgu.CV.Bitmap">
+      <HintPath>..\..\..\..\..\..\RuntimeLibraryFolder\EmguCv\libs\Emgu.CV.Bitmap.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.Models">
+      <HintPath>..\..\..\..\..\..\RuntimeLibraryFolder\EmguCv\libs\Emgu.CV.Models.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.Platform.NetCore">
+      <HintPath>..\..\..\..\..\..\RuntimeLibraryFolder\EmguCv\libs\Emgu.CV.Platform.NetCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.Platform.NetFramework">
+      <HintPath>..\..\..\..\..\..\RuntimeLibraryFolder\EmguCv\libs\Emgu.CV.Platform.NetFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.Platform.NetStandard">
+      <HintPath>..\..\..\..\..\..\RuntimeLibraryFolder\EmguCv\libs\Emgu.CV.Platform.NetStandard.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
